@@ -15,9 +15,7 @@ var cfg = {
 Replace the value of mailChimpURL with your mailchimp url.
 
 
-SOURCES AND CREDITS:
-
-I've used the following resources as listed.
+SOURCES:
 
 Fonts:
  - Montserrat Font (https://www.google.com/fonts/specimen/Montserrat)
@@ -47,11 +45,3 @@ Javascript Files:
  - Photoswipe (http://photoswipe.com/)
  - Animate On Scroll (https://michalsnik.github.io/aos/)
  - AjaxChimp (https://github.com/scdoshi/jquery-ajaxchimp)
-
-
--------------------------------------------------------------------------------------------------------
-
-
-
-
-
