@@ -337,7 +337,7 @@
     
                 $.ajax({
     
-                    type: "POST",
+                    type: "GET",
                     url: "mailto:ieeeamrita.sb@gmail.com",
                     /*url: "inc/sendEmail.php",*/
                     data: $(form).serialize(),
