@@ -3,6 +3,8 @@
  "short_name": "IEEE Amrita",
  "theme_color": "#0f4499",
  "background_color": "#000000",
+ "start_url": "/?utm_source=homescreen",
+ "display": "standalone",
  "icons": [
   {
    "src": "\/images/favicon/android-icon-36x36.png",
