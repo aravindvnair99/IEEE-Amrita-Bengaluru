@@ -59,7 +59,7 @@
  * # base style overrides
  *
  * ------------------------------------------------------------------- */
-html {
+ html {
     font-size: 10px;
 }
 
@@ -103,7 +103,34 @@ a:hover, a:active {
     outline: 0;
 }
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #494949;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: rgb(128, 128, 128)
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
 /* ===================================================================
  * # typography & general theme styles
@@ -502,7 +529,7 @@ form,
 }
 
 .pace .pace-progress {
-    background: #0f4499;
+    background: #39b54a;
     position: fixed;
     z-index: 900;
     top: 0;
@@ -545,7 +572,7 @@ form,
 }
 
 .line-scale-pulse-out > div {
-    background-color: #0f4499;
+    background-color: #39b54a;
     width: 4px;
     height: 35px;
     border-radius: 2px;
@@ -935,7 +962,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .alert-box--info {
     background-color: #d7ecfb;
-    color: #0f4499;
+    color: #4a95cc;
 }
 
 .alert-box--notice {
@@ -1246,7 +1273,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #0f4499;
+    color: #39b54a;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -1420,7 +1447,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .slick-slider .slick-dots li.slick-active button,
 .slick-slider .slick-dots li:hover button {
-    background: #0f4499;
+    background: #39b54a;
 }
 
 
@@ -1502,7 +1529,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-    color: #0087cc;
+    color: white;
 }
 
 .header-nav h3 {
@@ -1651,7 +1678,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-size: 1.3rem;
     text-transform: uppercase;
     letter-spacing: .3rem;
-    color: #0f4499;
+    color: #39b54a;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
 }
@@ -1822,8 +1849,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn {
     width: 215px;
-    border-color: #FFFFFF;
-    color: #FFFFFF;
+    border-color: #39b54a;
+    color: #39b54a;
     margin: 1.5rem 1.5rem 0 0;
     letter-spacing: .25rem;
     -webkit-transition: all 0.5s ease-in-out;
@@ -1836,8 +1863,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .home-content__buttons .btn:hover, 
 .home-content__buttons .btn:focus {
-    background: #FFFFFF !important;
-    color: #000000;
+    background: #39b54a !important;
+    color: #ffffff;
 }
 
 .home-content__scroll {
@@ -2200,7 +2227,7 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 16.2rem;
     padding-bottom: 9rem;
-    background-color: #0f4499;
+    background-color: #39b54a;
     color: #010507;
     position: relative;
 }
@@ -2405,7 +2432,7 @@ html.no-csstransitions .home-content__main {
 
 .services-list .service-icon {
     float: left;
-    color: #0f4499;
+    color: #39b54a;
     font-size: 4.8rem;
     margin-top: -.6rem;
 }
@@ -2765,7 +2792,7 @@ html.no-csstransitions .home-content__main {
  * ## testimonials
  * ------------------------------------------------------------------- */
  #officers{
-    background-color: #0f4499;
+    background-color: #39b54a;
  }
 .clients-testimonials {
     margin-top: 4.2rem;
@@ -2936,7 +2963,6 @@ html.no-csstransitions .home-content__main {
  * # contact 
  *
  * ------------------------------------------------------------------- */
- 
 .s-contact {
     background-color: #151515;
     background-image: url("../images/contact-bg.jpg");
@@ -2979,7 +3005,7 @@ html.no-csstransitions .home-content__main {
     letter-spacing: .1rem;
     padding: 0 2rem;
     margin: 0;
-    color: #000000;
+    color: #FFFFFF;
     background: #39b54a;
 }
 
@@ -2998,7 +3024,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     width: 2px;
     height: 20.4rem;
-    background-color: #0f4499;
+    background-color: #39b54a;
     position: absolute;
     left: 50%;
     top: -10.2rem;
@@ -3020,12 +3046,12 @@ html.no-csstransitions .home-content__main {
 .contact-content h3 {
     margin-top: 0;
     margin-bottom: 6.6rem;
-    color: #0f4499;
+    color: #FFFFFF;
 }
 
 .contact-content h5 {
     margin-top: 0;
-    color: #0f4499;
+    color: #39b54a;
 }
 
 .contact-content input[type="email"],
@@ -3052,7 +3078,7 @@ html.no-csstransitions .home-content__main {
 .contact-content textarea:focus,
 .contact-content select:focus {
     color: #FFFFFF;
-    border-bottom: 1px solid #0f4499;
+    border-bottom: 1px solid #39b54a;
 }
 
 .contact-content button,
@@ -3114,18 +3140,6 @@ html.no-csstransitions .home-content__main {
     bottom: 0;
     right: 0;
     background-color: #121212;
-}
-
-.contact-info a:hover {
-    color: hotpink;
-}
-
-.contact-info a:active {
-    color: #ffffff;
-}
-
-.contact-info a{
-    color: #39b54a;
 }
 
 .contact-secondary .contact-info {
