@@ -10,9 +10,10 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Benefits - IEEE Amrita Bangalore</title>
-    <meta name="description" content="">
-    <meta name="author" content="Aravind V. Nair, Abhishek Sai">
+    <title>IEEE Benefits - Amrita Bangalore</title>
+    <meta name="description" content="Expand your professional network and stay connected with current contacts all in one place. Easily find technical experts by quickly sorting through thousands of profiles by technical interests, geographic location, school/university, company, IEEE membership grade, Society membership, and more.">
+    <meta name="keywords" content="IEEE, Amrita, ASE, ASEB, IEEE Student Branch, PELS, ComSoc, WIE, RAS, PES-IAS, forum, I square, I2">
+    <meta name="author" content="Aravind V Nair, Abhishek Sai">
 
     <!-- mobile specific metas
     ================================================== -->
@@ -29,11 +30,41 @@
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
 
-    <!-- favicons
+    <!-- favicons and theme
     ================================================== -->
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#0f4499">
+    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#0f4499">
+    <style>
+        #top::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+        #top::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
+        #top::-webkit-scrollbar-thumb {
+            background-color: #F90;	
+            background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+        }
+    </style>
 </head>
 
 <body id="top">
@@ -44,7 +75,7 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="images/logo.png" id="site-logo" alt="Homepage">
             </a>
         </div>
 
@@ -56,19 +87,19 @@
                 <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
-                    <li><a class="smoothscroll"  href="/index.html" title="Home">Home</a></li>
+                    <li><a href="./index.html" title="Home">Home</a></li>
                     <li><a href="http://sites.ieee.org/sb-ase/">Blog</a></li>
                     
                 </ul>
     
                 <p>
-                        <b style="color: #0f4499">External links</b>
-                        <br>
-                        <a target="_blank" href="http://ieeebangalore.org/">IEEE Bangalore Section</a>
-                        <br>
-                        <a target="_blank" href="http://www.ieeer10.org/">IEEE R10 Asia</a>
-                        <br>
-                        <a target="_blank" href="https://www.ieee.org/index.html">IEEE Global</a>
+                    <b style="color: #0f4499">External links</b>
+                    <br>
+                    <a target="_blank" href="http://ieeebangalore.org/">IEEE Bangalore Section</a>
+                    <br>
+                    <a target="_blank" href="http://www.ieeer10.org/">IEEE R10 Asia</a>
+                    <br>
+                    <a target="_blank" href="https://www.ieee.org/index.html">IEEE Global</a>
                 </p>
     
     
@@ -94,7 +125,6 @@
                         </a>
                     </li>
                 </ul>
-
                 <br>
                 <p>
                 Made by 
@@ -112,13 +142,8 @@
             <span class="header-menu-icon"></span>
         </a>
 
-    </header> <!-- end s-header -->
-
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services">
+    </header>
+    <section id='services' class="s-services" style="background-color: #e9e9e9">
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
@@ -127,24 +152,13 @@
                     Benefits of IEEE
                 </h1>
             </div>
-        </div> <!-- end section-header -->
+        </div>
         <div class="row about-desc" data-aos="fade-up">
             <div class="col-full" data-aos="fade-up">
                 <p>
-                        IEEE is the world's largest technical professional organisation, with students and researchers from all around the world, and our college is an official chapter of IEEE. This is a unique opportunity for all those who are looking for exposure in their fields backed by strong technical content provided by IEEE. IEEE offers an array of benefits.
+                    IEEE is the world's largest technical professional organisation, with students and researchers from all around the world, and our college is an official chapter of IEEE. This is a unique opportunity for all those who are looking for exposure in their fields backed by strong technical content provided by IEEE. IEEE offers an array of benefits.
                 </p>
             </div>
-           <!-- <div class="col-full" data-aos="fade-up">
-                <h2 data-aos="fade-up">What is webcast?</h2>
-                <p data-aos="fade-up">
-                    Webcasting is an English term that comes from the root word "webcast" which is an amalgamation of the two words, "web" and "broadcast".
-                </p>
-                <p data-aos="fade-up">
-                    Literally speaking, the term ‘webcast’ or 'Web Streaming' refers to the process of communicating simultaneously across multiple computers for parallel distribution of media via the world wide web using the streaming technology. It is mostly used to transmit live audio or live video content, which can either be LIVE or on demand.
-                </p>
-            </div>
-        </div>
-        <br> -->
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-2">
@@ -153,7 +167,7 @@
             </div>
         </div>
         <div class="row services-list block-1-2 block-tab-full">
-            
+           
             <div class="col-block service-item" data-aos="fade-up">
                 <div class="service-icon">
                     <i class="fa fa-globe"></i>
@@ -161,7 +175,7 @@
                 <div class="service-text">
                     <h3 class="h2">Keep Technically Current</h3>
                     <p>
-                            Continue to advance your career and keep abreast of new and changing technologies. IEEE has the means for you to remain technically current through award winning publications, and technical societies.     
+                        Continue to advance your career and keep abreast of new and changing technologies. IEEE has the means for you to remain technically current through award winning publications, and technical societies.     
                     </p>
                 </div>
             </div>
@@ -193,7 +207,7 @@
                 <div class="service-text">
                     <h3 class="h2">Networking</h3>
                     <p>
-                            Attending events of relevant interest, not only provides us technical knowledge but also the powerful possibility of networking with peer members.  Student Congresses organized by IEEE are the ultimate events where you can network with a lot of volunteers and who created an impact at various scales
+                        Attending events of relevant interest, not only provides us technical knowledge but also the powerful possibility of networking with peer members.  Student Congresses organized by IEEE are the ultimate events where you can network with a lot of volunteers and who created an impact at various scales
                     </p>
                 </div>
             </div>
@@ -225,7 +239,7 @@
                 <div class="service-text">
                     <h3 class="h2">Technical Society</h3>
                     <p>
-                            IEEE has around 39 technical societies which offers potential possibilities for the members.  Joining a suitable society of your interest, can provide you more relevant technical updates related to your field. 
+                        IEEE has around 39 technical societies which offers potential possibilities for the members.  Joining a suitable society of your interest, can provide you more relevant technical updates related to your field. 
                     </p>
                 </div>
             </div>
@@ -256,7 +270,7 @@
                     <div class="service-text">
                         <h3 class="h2">Online Benefits</h3>
                         <p>
-                                <b>IEEE Collabratec</b> is a social network which can be used to collaborate with your contacts. <b>IEEE ResumeLab</b> lets you create and customise your resume from various styles/templates.
+                            <b>IEEE Collabratec</b> is a social network which can be used to collaborate with your contacts. <b>IEEE ResumeLab</b> lets you create and customise your resume from various styles/templates.
                         </p>
                     </div>
                 </div>
@@ -288,71 +302,13 @@
                         <div class="service-text">
                             <h3 class="h2">Volunteering opportunities</h3>
                             <p>
-                                    IEEE also provides immense volunteering opportunities to exhibit our skills and to learn new things.  It helps building a community of interested people and leaders who can innovate and do things.  You can start volunteering from your Student Branch (SB), and can grow as a volunteer for Section, Council and Regional levels. 
+                                IEEE also provides immense volunteering opportunities to exhibit our skills and to learn new things.  It helps building a community of interested people and leaders who can innovate and do things.  You can start volunteering from your Student Branch (SB), and can grow as a volunteer for Section, Council and Regional levels. 
                             </p>
                         </div>
                     </div>
 
-        </div> <!-- end services-list -->
-        <br>
-       <!-- <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-2">
-                    Webcast applications
-                </h1>
-            </div>
         </div>
-        <div class="row services-list block-1-2 block-tab-full">
-            
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="fa fa-link"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Corporate Live Webcast</h3>
-                    <p>
-                        AGM, Investor Meets, Product Launches, Advertising, Corporate Addresses Lectures &amp; Corporate Announcements etc.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="fa fa-calendar"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Events Business and Industry</h3>
-                    <p>
-                        Conferences, Seminars, Trade Fairs, Presentations, Commercial Events, etc.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="fa fa-graduation-cap"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Education and Instruction</h3>
-                    <p>
-                        College Events, Convocations, Annual day celebrations, Training and Coaching, Online Instruction, Web Based Distance Learning etc.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="fa fa-music"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">Organizational and Entertainment</h3>
-                    <p>
-                        Music Concerts, Religious Ceremonies, Sporting Events, Press Conferences, wedding/ Marriages (WEDCAST) etc.
-                    </p>
-                </div>
-            </div>
-
-        </div> -->
+        <br>
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
                 <h1 class="display-2">
@@ -372,26 +328,7 @@
                 </ul>
             </div>
         </div>
-        <!--<div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-2">
-                    How does Webcasting Technology work over the internet?
-                </h1>
-            </div>
-        </div>
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full" data-aos="fade-up">
-                <p>
-                    The basics of a webcasting system include the use of right software, the host server, and capture cards. Content is encoded into the system using the software program. It is then sent to the host's server. From there, it is available to potential viewers over the Internet. Most webcasts require the use of Media Players for viewing.
-                </p>
-            </div>
-        </div> -->
-
-    </section> <!-- end s-services -->
-
-
-    <!-- footer
-    ================================================== -->
+    </section>
     <footer>
 
         <div class="row footer-main">
@@ -419,7 +356,7 @@
 
             </div>
 
-        </div> <!-- end footer-main -->
+        </div>
 
         <div class="row footer-bottom">
 
