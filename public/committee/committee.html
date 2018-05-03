@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en">
+<html lang="en" style="overflow-x: hidden;">
 
 <head>
 	<meta charset="utf-8">
@@ -11,9 +11,23 @@
 	<link href="css/style.css" rel="stylesheet">
 	<link href="color/default.css" rel="stylesheet">
 	<link rel="shortcut icon" href="../favicon.ico">
+	<style>
+		#scroll::-webkit-scrollbar-track {
+			-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+			background-color: #F5F5F5;
+		}
+		#scroll::-webkit-scrollbar {
+			width: 12px;
+			background-color: #F5F5F5;
+		}
+		#scroll::-webkit-scrollbar-thumb {
+			background-color: #F90;	
+			background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+		}
+	</style>
 </head>
 
-<body>
+<body id="scroll">
 	<!-- navbar -->
 	<div class="navbar-wrapper">
 		<div class="navbar navbar-inverse navbar-fixed-top">
@@ -87,12 +101,12 @@
 	<section class="spacer bg3">
 		<div class="container">
 			<div class="row">
-				<div class="span12 aligncenter zoomIn animated">
+				<div class="span12 aligncenter flyLeft">
 					<blockquote class="large">
 						We are an established and trusted web agency with a reputation for commitment and high integrity
 					</blockquote>
 				</div>
-				<div class="span12 aligncenter fadeInDown animated">
+				<div class="span12 aligncenter flyRight">
 					<i class="icon-rocket icon-10x"></i>
 				</div>
 			</div>
