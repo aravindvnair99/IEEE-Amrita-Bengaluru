@@ -3647,7 +3647,9 @@ button {
   background: #39b54a
 }
 
-
+.now{
+    background-color: red;
+}
 
 
 /*# sourceMappingURL=main.css.map */

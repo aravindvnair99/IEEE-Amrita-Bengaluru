@@ -79,73 +79,107 @@
             </a>
         </div>
 
-        <nav class="header-nav">
+        <nav class="header-nav" id="scroll">
 
-            <a href="#0" class="header-nav__close" title="close">
-                <span>Close</span>
-            </a>
-
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-
-                <ul class="header-nav__list">
-                    <li class="current">
-                        <a class="smoothscroll" href="./index.html" title="Home">Home</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://sites.ieee.org/sb-ase/" title="blog">Blog</a>
-                    </li>
-                    <li>
+                <a href="#0" class="header-nav__close" title="close">
+                    <span>Close</span>
+                </a>
+    
+                <div class="header-nav__content">
+                    <h3>Navigation</h3>
+    
+                    <ul class="header-nav__list">
+                        <li>
+                            <a href="./index.html" title="Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="./index.html#about" title="About">About</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="smoothscroll" title="Officers">Officers</a>
+                                <div class="dropdown-content">
+                                    <a class="smoothscroll" href="./index.html#officers" title="Core">Core</a>
+                                    <a href="./committee.html" title="Committee">Committee</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="smoothscroll" href="./index.html#services" title="Branches">Branches</a>
+                        </li>
+                        <li>
+                            <div class="dropdown">
+                                <a class="smoothscroll" title="Events">Events</a>
+                                <div class="dropdown-content">
+                                    <a class="smoothscroll" href="./index.html#works" title="Showcase">Showcase</a>
+                                    <a target="_blank" href="http://sites.ieee.org/sb-ase/events/up-coming-events/" title="Upcoming">Upcoming</a>
+                                    <a target="_blank" href="http://sites.ieee.org/sb-ase/events/recent-events-2/" title="Past">Past</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://sites.ieee.org/sb-ase/photo/" title="Gallery">Gallery</a>
+                        </li>
+                        <li>
+                            <a class="smoothscroll" href="./index.html#clients" title="Resources">Resources</a>
+                        </li>
+                        <li>
+                            <a class="smoothscroll" href="./index.html#contact" title="Contact">Contact</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://sites.ieee.org/sb-ase/" title="blog">Blog</a>
+                        </li>
+                        <li>
                             <a href="./join.html" title="how to join?">How to join IEEE?</a>
-                    </li>
-                    <li>
-                        <a href="./benefits.html" title="benefits">Benefits</a>
-                    </li>
-                </ul>
-
-                <p>
-                    <b style="color: #0f4499">External links</b>
+                        </li>
+                        <li>
+                            <a href="./benefits.html" title="benefits">Benefits</a>
+                        </li>
+                    </ul>
+    
+                    <p>
+                        <b style="color: #0f4499">External links</b>
+                        <br>
+                        <a target="_blank" href="http://ieeebangalore.org/">IEEE Bangalore Section</a>
+                        <br>
+                        <a target="_blank" href="http://www.ieeer10.org/">IEEE R10 Asia</a>
+                        <br>
+                        <a target="_blank" href="https://www.ieee.org/index.html">IEEE Global</a>
+                    </p>
+    
+                    <ul class="header-nav__social">
+                        <li>
+                            <a target="_blank" href="https://www.facebook.com/ieeeamritasb/">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/ieee_amrita/">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/company/ieee-student-branch-ase-b/">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" class="smoothscroll" href="#contact">
+                                <i class="fa fa-envelope"></i>
+                            </a>
+                        </li>
+                    </ul>
                     <br>
-                    <a target="_blank" href="http://ieeebangalore.org/">IEEE Bangalore Section</a>
-                    <br>
-                    <a target="_blank" href="http://www.ieeer10.org/">IEEE R10 Asia</a>
-                    <br>
-                    <a target="_blank" href="https://www.ieee.org/index.html">IEEE Global</a>
-                </p>
-
-                <ul class="header-nav__social">
-                    <li>
-                        <a target="_blank" href="https://www.facebook.com/ieeeamritasb/">
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.instagram.com/ieee_amrita/">
-                            <i class="fa fa-instagram"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="https://www.linkedin.com/company/ieee-student-branch-ase-b/">
-                            <i class="fa fa-linkedin"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a target="_blank" class="smoothscroll" href="#contact">
-                            <i class="fa fa-envelope"></i>
-                        </a>
-                    </li>
-                </ul>
-                <br>
-                <p>
-                Made by 
-                <a target="_blank" href="#">Aravind V. Nair</a> and
-                <a target="_blank" href="https://abhishek-sai.firebaseapp.com/">Abhishek Sai</a> for IEEE
-                <a target="_blank" href="https://www.amrita.edu/campus/bengaluru">Amrita Bangalore</a>
-                </p>
-            </div>
-            <!-- end header-nav__content -->
-
-        </nav>
+                    <p>
+                    Made by 
+                    <a target="_blank" href="#">Aravind V. Nair</a> and
+                    <a target="_blank" href="https://abhishek-sai.firebaseapp.com/">Abhishek Sai</a> for IEEE
+                    <a target="_blank" href="https://www.amrita.edu/campus/bengaluru">Amrita Bangalore</a>
+                    </p>
+                </div>
+                <!-- end header-nav__content -->
+    
+            </nav>
         <!-- end header-nav -->
 
         <a class="header-menu-toggle" href="#0">
@@ -156,9 +190,15 @@
     </header>
     <!-- end s-header -->
     <section id="officers" class="s-services">
+            <div class="row section-header" data-aos="fade-up">
+                    <div class="col-full">
+                        <h3 class="subhead subhead--dark">Committee</h3>
+                        <h1 class="display-2 display-2--light">IEEE Amrita Student Branch's Office bearers</h1>
+                    </div>
+                </div>
         <div class="row clients-testimonials" data-aos="fade-up"> 
             <div class="col-full">
-                <div class="testimonials"> 
+                <div class="testimonials">
                     <div class="testimonials__slide"> 
                         <p>
                             He serves as an Associate Professor at the department of ECE, Amrita School of Engineering. With a PhD and ME under his belt,
@@ -169,8 +209,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Dr. Navin Kumar</span>
                             <span class="testimonials__pos">Bangalore IEEE ComSoc Chairperson</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
                             A fourth year student pursuing his B-Tech in ECE, has acute passion for robotics, Computer Vision, Internet of Things for humanitarian application and also has immense interest in Adobe Creative Suite.
                         </p>
@@ -178,8 +221,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Aaryan Oberoi</span>
                             <span class="testimonials__pos">Chairperson</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
                             A third year studentpursuing his B.tech in EIE, enjoys analysing and reviewing the latest technology. his other passions include mobile hardware development,automation,ML for sensory applications and sensor data analytics. 
                         </p>
@@ -187,8 +233,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Harsh Sinha</span>
                             <span class="testimonials__pos">Vice Chairperson</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
                             A third year student pursuing her B.Tech in Electronics and communication Engineering, enjoys coding and is enthusiastic about analog circut design and digital processing.
                         </p>
@@ -196,18 +245,24 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Sandhiya Mani</span>
                             <span class="testimonials__pos">Secratary</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
-                                A 3rd year student pursuing his B.Tech in Electronics and Communication Engineering, he finds his engrossement in robotics
-                                and automation. His other interests include basic electronics, hardware analysis and designing.
+                            A 3rd year student pursuing his B.Tech in Electronics and Communication Engineering, he finds his engrossement in robotics
+                            and automation. His other interests include basic electronics, hardware analysis and designing.
                         </p>
                         <img src="images/avatars/mujahid.jpg" alt="Author image" class="testimonials__avatar">
                         <div class="testimonials__info">
                             <span class="testimonials__name">Md. Mujahid</span>
                             <span class="testimonials__pos">Publicity Chair</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
                             A sophomore pursuing B.Tech in Computer Science and Engineering, Aravind V. Nair has enormous passion for coding and web development. He also has a great zeal in server management and ethical hacking.
                         </p>
@@ -215,8 +270,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Aravind V Nair</span>
                             <span class="testimonials__pos">Web Development Chairperson</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
                             Akshay, a sophomore pursuing his B.Tech in Electronics and Communication Engineering, is enthusiastic about Artificial Intelligence and Machine Learning, and is fascinated with signal processing.
                         </p>
@@ -224,8 +282,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Kumar Akshay </span>
                             <span class="testimonials__pos">Membership Drive Chair</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                         <div class="row clients-testimonials" data-aos="fade-up"> 
+            <div class="col-full">
+                <div class="testimonials">
+                    <div class="testimonials__slide"> 
                         <p>
                             A sophomore pursuing his B.Tech in Computer Science and Engineering, Abhishek loves to dapple with different programming languages and is a keen web developer.
                         </p>
@@ -233,8 +294,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Abhishek Sai</span>
                             <span class="testimonials__pos">Executive Member</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <p>
                             A sophomore pursuing his B.Tech in Computer Science and Engineering has immense interest in photography, web design and development. He also has an ardour for networking on social media
                         </p>
@@ -242,8 +306,11 @@
                         <div class="testimonials__info">
                             <span class="testimonials__name">Abhinay Krishna</span>
                             <span class="testimonials__pos">Executive Member</span>
-                        </div>
-                        <br><br>
+                        </div></div></div></div></div>
+                        <div class="row clients-testimonials" data-aos="fade-up"> 
+                                <div class="col-full">
+                                    <div class="testimonials">
+                                        <div class="testimonials__slide"> 
                         <div class="testimonials__slide">
                             <p>
                                 Currently in her sophomore year of B.Tech Electronics and Communication Engineering, Anusha enjoys analysing circuits, and her interests include digital electronics and communication engineering.
