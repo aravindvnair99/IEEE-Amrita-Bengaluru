@@ -3642,9 +3642,11 @@ button {
     transition: all 0.2s ease-in-out;
   }
 
-.glow-button:hover {
-  color: rgba(255, 255, 255, 1);
-  background: #39b54a
+.glow-button:hover,
+.glow-button:focus {
+    background: #39b54a !important;
+    color: #ffffff;
+    border-color: #0087cc
 }
 
 .now{
