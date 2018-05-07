@@ -37,19 +37,25 @@
     <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#0f4499">
     <style>
-        #top::-webkit-scrollbar-track,
-        #scroll::-webkit-scrollbar-track {
+        #top::-webkit-scrollbar-track {
             -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
             background-color: #F5F5F5;
         }
-        #top::-webkit-scrollbar,
-        #scroll::-webkit-scrollbar {
+        #top::-webkit-scrollbar {
             width: 12px;
             background-color: #F5F5F5;
         }
         #top::-webkit-scrollbar-thumb {
             background-color: #F90;	
             background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent)
+        }
+        #scroll::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+        #scroll::-webkit-scrollbar {
+            width: 12px;
+            background-color: #F5F5F5;
         }
         #scroll::-webkit-scrollbar-thumb {
             background-color: #39b54a;	
@@ -309,7 +315,7 @@
                     </p>
                     <button type="button" class="glow-button button" onclick="location.href='http://sites.ieee.org/sb-ase/student-branch-chapters-affinity-group/communication-society-comsoc-chapter/'" type="button">
                         Know More
-                    </button>
+                    </button> 
                 </div>
             </div>
 
@@ -381,8 +387,8 @@
                     <h3 class="h2">I
                         <sup>2</sup> Forum</h3>
                     <p>
-                        Experiment, Innovate and Research with the I<sup>2</sup> Forum
-                    </p><br>
+                        Experiment, Innovate and Research Forum
+                    </p>
                     <button type="button" class="glow-button button" onclick="location.href='http://sites.ieee.org/sb-ase/student-branch-chapters-affinity-group/i-square/'" type="button">
                         Know More
                     </button> 
@@ -761,7 +767,7 @@
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="POST" action="https://formspree.io/ieeeamrita.sb@gmail.com" novalidate="novalidate">
+                <form name="contactForm" id="contactForm" method="get" action="https://formspree.io/kvsabsy2568@gmail.com" novalidate="novalidate">
                     <fieldset>
 
                         <div class="form-field">

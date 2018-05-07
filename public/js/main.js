@@ -338,7 +338,7 @@
                 $.ajax({
     
                     type: "GET",
-                    url: "mailto:ieeeamrita.sb@gmail.com",
+                    url: "mailto:https://formspree.io/kvsabsy2568@gmail.com",
                     /*url: "inc/sendEmail.php",*/
                     data: $(form).serialize(),
                     beforeSend: function() { 
