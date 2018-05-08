@@ -174,17 +174,26 @@
             </a> 
         </header>
 
-    <section id='services' class="s-services">
+        <section id='about' class="s-about">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h1 class="display-2" style="color:#39b54a;">
-                    You are Offline!
-                </h1>
+            <div class="row section-header has-bottom-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead subhead--dark">Hello There</h3>
+                    <h1 class="display-1 display-1--light">You are offline&#x1f61f;</h1>
+                </div>
             </div>
-        </div> 
-        <br>
-    </section>
+    
+            <div class="row about-desc" data-aos="fade-up">
+                <div class="col-full">
+                    <p>
+                        Please check your connection and try again.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="about__line"></div>
+    
+        </section>
 
     <footer>
 
@@ -283,6 +292,17 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script src="js/manup.js"></script>
+    <script>
+        if (navigator.serviceWorker.controller) {
+            console.log('[PWA Builder] active service worker found, no need to register')
+        } else {
+            navigator.serviceWorker.register('pwabuilder-sw.js', {
+                scope: './'
+            }).then(function(reg) {
+                console.log('Service worker has been registered for scope:'+ reg.scope);
+            });
+        }
+    </script>
 </body>
 
 </html>
