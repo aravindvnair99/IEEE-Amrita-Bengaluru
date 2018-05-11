@@ -6,14 +6,19 @@
       "**/.*",
       "**/node_modules/**"
     ],
+    "redirects": [ {
+      "source" : "/images/android-chrome-192x192.png",
+      "destination" : "/android-chrome-192x192.png",
+      "type" : 301
+    } ],
     "headers": [ {
-      "source" : "**/*.@(eot|otf|ttf|ttc|woff|font.css)",
+      "source" : "**/*.@(eot|otf|ttf|ttc|woff|woff2|font.css)",
       "headers" : [ {
         "key" : "Access-Control-Allow-Origin",
         "value" : "*"
       } ]
     }, {
-      "source" : "**/*.@(js|css)",
+      "source" : "**/*.@(js|css|json)",
       "headers" : [ {
         "key" : "Cache-Control",
         "value" : "max-age=604800"
@@ -29,6 +34,18 @@
       "headers" : [ {
         "key" : "Cache-Control",
         "value" : "max-age=300"
+      } ]
+    }, {
+      "source" : "https://www.google-analytics.com/analytics.js",
+      "headers" : [ {
+        "key" : "Cache-Control",
+        "value" : "max-age=7200"
+      } ]
+    }, {
+      "source" : "https://www.googletagmanager.com/gtag/js?id=UA-119055177-1",
+      "headers" : [ {
+        "key" : "Cache-Control",
+        "value" : "max-age=7200"
       } ]
     } ]
   }
