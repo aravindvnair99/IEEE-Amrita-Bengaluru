@@ -35,18 +35,6 @@
         "key" : "Cache-Control",
         "value" : "max-age=300"
       } ]
-    }, {
-      "source" : "https://www.google-analytics.com/analytics.js",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=7200"
-      } ]
-    }, {
-      "source" : "https://www.googletagmanager.com/gtag/js?id=UA-119055177-1",
-      "headers" : [ {
-        "key" : "Cache-Control",
-        "value" : "max-age=7200"
-      } ]
     } ]
   }
 }
