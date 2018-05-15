@@ -8,11 +8,11 @@
 <head>
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-119055177-1"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    gtag('config', 'UA-119055177-1');
+        gtag('config', 'UA-119055177-1');
     </script>
     <meta charset="utf-8">
     <title>Style Guide - Amrita Bangalore</title>
@@ -25,18 +25,19 @@
     <meta property="og:image" content="/android-chrome-256x256.png" />
     <meta property="og:type" content="website" />
     <meta property="og:locale" content="en_GB" />
-    <meta property="og:description" content="IEEE (Amrita Branch) - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity." />
+    <meta property="og:description" content="IEEE (Amrita Branch) - The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity."
+    />
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/vendor.css">
     <link rel="stylesheet" href="css/main.css">
 
     <style type="text/css" media="screen">
-        .s-styles { 
+        .s-styles {
             background: white;
             padding-top: 15rem;
             padding-bottom: 12rem;
         }
-     </style> 
+    </style>
 
     <!-- script
     ================================================== -->
@@ -65,61 +66,97 @@
 
         <div class="header-logo">
             <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
+                <img src="images/logo.png" id="site-logo" alt="Homepage">
             </a>
         </div>
 
         <nav class="header-nav">
 
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+            <a href="#0" class="header-nav__close" title="close">
+                <span>Close</span>
+            </a>
 
             <div class="header-nav__content">
                 <h3>Navigation</h3>
-                
+
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="index.html" title="home">Home</a></li>
-                    <li><a href="index.html#about" title="about">About</a></li>
-                    <li><a href="index.html#services" title="services">Services</a></li>
-                    <li><a href="index.html#works" title="works">Works</a></li>
-                    <li><a href="index.html#clients" title="clients">Clients</a></li>
-                    <li><a href="#contact" title="contact">Contact</a></li>
+                    <li class="current">
+                        <a class="smoothscroll" href="index.html" title="home">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html#about" title="about">About</a>
+                    </li>
+                    <li>
+                        <a href="index.html#services" title="services">Services</a>
+                    </li>
+                    <li>
+                        <a href="index.html#works" title="works">Works</a>
+                    </li>
+                    <li>
+                        <a href="index.html#clients" title="clients">Clients</a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="contact">Contact</a>
+                    </li>
                 </ul>
-    
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-    
+
+                <p>
+                    <b style="color: #0f4499">External links</b>
+                    <br>
+                    <a target="_blank" rel="noopener" href="http://ieeebangalore.org/">IEEE Bangalore Section</a>
+                    <br>
+                    <a target="_blank" rel="noopener" href="http://www.ieeer10.org/">IEEE R10 Asia</a>
+                    <br>
+                    <a target="_blank" rel="noopener" href="https://www.ieee.org/index.html">IEEE Global</a>
+                </p>
+
                 <ul class="header-nav__social">
                     <li>
-                        <a href="#0"><i class="fa fa-facebook"></i></a>
+                        <a target="_blank" rel="noopener" href="https://www.facebook.com/ieeeamritasb/">
+                            <i class="fa fa-facebook"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-twitter"></i></a>
+                        <a target="_blank" rel="noopener" href="https://www.instagram.com/ieee_amrita/">
+                            <i class="fa fa-instagram"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-instagram"></i></a>
+                        <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/ieee-student-branch-ase-b/">
+                            <i class="fa fa-linkedin"></i>
+                        </a>
                     </li>
                     <li>
-                        <a href="#0"><i class="fa fa-behance"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fa fa-dribbble"></i></a>
+                        <a class="smoothscroll" href="#contact">
+                            <i class="fa fa-envelope"></i>
+                        </a>
                     </li>
                 </ul>
+                <br>
+                <p>
+                    Made by
+                    <a target="_blank" rel="noopener" href="https://aravindvnair99.firebaseapp.com">Aravind V. Nair</a> and
+                    <a target="_blank" rel="noopener" href="https://abhishek-sai.firebaseapp.com/">Abhishek Sai</a> for IEEE
+                    <a target="_blank" rel="noopener" href="https://www.amrita.edu/campus/bengaluru">Amrita Bangalore</a>
+                </p>
+            </div>
 
-            </div> <!-- end header-nav__content -->
-
-        </nav>  <!-- end header-nav -->
+        </nav>
+        <!-- end header-nav -->
 
         <a class="header-menu-toggle" href="#0">
             <span class="header-menu-text">Menu</span>
             <span class="header-menu-icon"></span>
         </a>
 
-    </header> <!-- end s-header -->
+    </header>
+    <!-- end s-header -->
 
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000
+        data-natural-height=2000 data-position-y=center>
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -128,20 +165,21 @@
 
             <div class="row home-content__main">
 
-                <h3>Welcome to Glint</h3>
+                <h1 style="color: #39b54a">Welcome to
+                    <br>IEEE Amrita Bangalore</h1>
 
-                <h1>
-                    We are a creative group <br>
-                    of people who design <br>
-                    influential brands and <br>
-                    digital experiences.
-                </h1>
+                <h3 style="color: #FFF">
+                    A branch of IEEE - The world's largest technical
+                    <br> professional organization
+                    <br> dedicated to advancing technology
+                    <br> for the benefit of humanity.
+                </h3>
 
                 <div class="home-content__buttons">
                     <a href="#contact" class="smoothscroll btn btn--stroke">
                         Start a Project
                     </a>
-                    <a href="index.html#about" class="smoothscroll btn btn--stroke">
+                    <a href="#about" class="smoothscroll btn btn--stroke">
                         More About Us
                     </a>
                 </div>
@@ -156,43 +194,55 @@
 
             <div class="home-content__line"></div>
 
-        </div> <!-- end home-content -->
+        </div>
+        <!-- end home-content -->
 
 
         <ul class="home-social">
             <li>
-                <a href="#0"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+                <a target="_blank" rel="noopener" href="https://www.facebook.com/ieeeamritasb/">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <span>Facebook</span>
+                </a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+                <a target="_blank" rel="noopener" href="https://www.instagram.com/ieee_amrita/">
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                    <span>Instagram</span>
+                </a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/ieee-student-branch-ase-b/">
+                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                    <span>LinkedIn</span>
+                </a>
             </li>
             <li>
-                <a href="#0"><i class="fa fa-behance" aria-hidden="true"></i><span>Behance</span></a>
+                <a class="smoothscroll" href="#contact">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <span>Email</span>
+                </a>
             </li>
-            <li>
-                <a href="#0"><i class="fa fa-dribbble" aria-hidden="true"></i><span>Dribbble</span></a>
-            </li>
-        </ul> 
-        <!-- end home-social -->
+        </ul>
 
-    </section> <!-- end s-home -->
+    </section>
+    <!-- end s-home -->
 
 
     <!-- styles
     ================================================== -->
     <section id="styles" class="s-styles">
-        
+
         <div class="row narrow section-intro add-bottom text-center">
 
             <div class="col-twelve tab-full">
 
                 <h1 class="display-2">Style Guide.</h1>
 
-                <p class="lead">Lorem ipsum Officia elit ad tempor dolore est ex incididunt incididunt occaecat culpa deserunt sunt labore in cillum ullamco magna in Excepteur consequat in reprehenderit proident mollit incididunt officia commodo.
-                Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam et ea incididunt.</p>
+                <p class="lead">Lorem ipsum Officia elit ad tempor dolore est ex incididunt incididunt occaecat culpa deserunt sunt labore
+                    in cillum ullamco magna in Excepteur consequat in reprehenderit proident mollit incididunt officia commodo.
+                    Duis ea officia sed dolor pariatur enim dolore dolore quis incididunt nulla exercitation commodo veniam
+                    et ea incididunt.</p>
 
             </div>
 
@@ -204,20 +254,30 @@
 
                 <h3>Paragraph and Image</h3>
 
-                <p><a href="#"><img width="120" height="120" class="pull-left" alt="sample-image" src="images/sample-image.jpg"></a>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque posuere nunc justo tempus leo. </p>
+                <p>
+                    <a href="#">
+                        <img width="120" height="120" class="pull-left" alt="sample-image" src="images/logo.png">
+                    </a>
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum.Cras id urna. Morbi tincidunt,
+                    orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis,
+                    purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla
+                    magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit
+                    magna id neque posuere nunc justo tempus leo. </p>
 
                 <p>
-                Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentumodio, ac blandit ante orci ut diam.	
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec libero. Suspendisse bibendum. Cras id urna. Morbi tincidunt,
+                    orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis,
+                    purus nec placerat bibendum, dui pede condimentumodio, ac blandit ante orci ut diam.
                 </p>
 
-                <p>A <a href="#">link</a>,
-                <abbr title="this really isn't a very good description">abbrebation</abbr>,
-                <strong>strong text</strong>,
-                <em>em text</em>,
-                <del>deleted text</del>, and
-                <mark>this is a mark text.</mark>
-                <code>.code</code>
+                <p>A
+                    <a href="#">link</a>,
+                    <abbr title="this really isn't a very good description">abbrebation</abbr>,
+                    <strong>strong text</strong>,
+                    <em>em text</em>,
+                    <del>deleted text</del>, and
+                    <mark>this is a mark text.</mark>
+                    <code>.code</code>
                 </p>
 
             </div>
@@ -226,20 +286,25 @@
 
                 <h3>Drop Caps</h3>
 
-                <p class="drop-cap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
-                there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the
-                Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. Morbi tincidunt, orci ac convallis aliquam, lectus turpis varius lorem, eu	posuere nunc justo tempus leo. Donec mattis, purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit magna id neque.
+                <p class="drop-cap">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind
+                    texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    A small river named Duden flows by their place and supplies it with the necessary regelialia. Morbi tincidunt,
+                    orci ac convallis aliquam, lectus turpis varius lorem, eu posuere nunc justo tempus leo. Donec mattis,
+                    purus nec placerat bibendum, dui pede condimentum odio, ac blandit ante orci ut diam. Cras fringilla
+                    magna. Phasellus suscipit, leo a pharetra condimentum, lorem tellus eleifend magna, eget fringilla velit
+                    magna id neque.
                 </p>
 
                 <h3>Small Print</h3>
 
                 <p>Buy one widget, get one free!
-                <small>(While supplies last. Offer expires on the vernal equinox. Not valid in Ohio.)</small>
+                    <small>(While supplies last. Offer expires on the vernal equinox. Not valid in Ohio.)</small>
                 </p>
 
             </div>
 
-        </div> <!-- end row -->
+        </div>
+        <!-- end row -->
 
         <div class="row">
 
@@ -249,10 +314,10 @@
 
                 <aside class="pull-quote">
                     <blockquote>
-                    <p>It is a paradisematic country, in which roasted parts of
-                    sentences fly into your mouth. Even the all-powerful Pointing has no control about the blind
-                    texts it is an almost unorthographic life One day however a small line of blind text by the name
-                    of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                        <p>It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Even the
+                            all-powerful Pointing has no control about the blind texts it is an almost unorthographic life
+                            One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the
+                            far World of Grammar.</p>
                     </blockquote>
                 </aside>
 
@@ -263,23 +328,25 @@
                 <h3>Block Quotes</h3>
 
                 <blockquote cite="http://where-i-got-my-info-from.com">
-                <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                to do what you believe is great work. And the only way to do great work is to love what you do.
-                If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                </p>
-                <cite>
-                    <a href="#">Steve Jobs</a>
-                </cite>
+                    <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do
+                        what you believe is great work. And the only way to do great work is to love what you do. If you
+                        haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when
+                        you find it.
+                    </p>
+                    <cite>
+                        <a href="#">Steve Jobs</a>
+                    </cite>
                 </blockquote>
 
                 <blockquote>
-                <p>Good design is as little design as possible.</p>
-                <cite>Dieter Rams</cite>
+                    <p>Good design is as little design as possible.</p>
+                    <cite>Dieter Rams</cite>
                 </blockquote>
 
             </div>
 
-        </div> <!-- end row -->
+        </div>
+        <!-- end row -->
 
 
         <div class="row half-bottom">
@@ -297,9 +364,9 @@
                             <li>two</li>
                             <li>three</li>
                         </ul>
-                        </li>
-                        <li>A list item.</li>
-                    </ol>
+                    </li>
+                    <li>A list item.</li>
+                </ol>
 
                 <ul class="disc">
                     <li>Here is an example</li>
@@ -311,11 +378,19 @@
                 <h5>a) Multi-line Definitions (default) </h5>
 
                 <dl>
-                    <dt><strong>This is a term</strong></dt>
-                        <dd>this is the definition of that term, which both live in a <code>dl</code>.</dd>
-                    <dt><strong>Another Term</strong></dt>
-                        <dd>And it gets a definition too, which is this line</dd>
-                        <dd>This is a 2<sup>nd</sup> definition for a single term. A <code>dt</code> may be followed by multiple <code>dd</code>s.</dd>
+                    <dt>
+                        <strong>This is a term</strong>
+                    </dt>
+                    <dd>this is the definition of that term, which both live in a
+                        <code>dl</code>.</dd>
+                    <dt>
+                        <strong>Another Term</strong>
+                    </dt>
+                    <dd>And it gets a definition too, which is this line</dd>
+                    <dd>This is a 2
+                        <sup>nd</sup> definition for a single term. A
+                        <code>dt</code> may be followed by multiple
+                        <code>dd</code>s.</dd>
                 </dl>
 
             </div>
@@ -331,69 +406,88 @@
                 </p>
 
                 <h3>Skill Bars</h3>
-                
+
                 <ul class="skill-bars">
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>HTML5</strong>
+                        <div class="progress percent90">
+                            <span>90%</span>
+                        </div>
+                        <strong>HTML5</strong>
                     </li>
                     <li>
-                    <div class="progress percent85"><span>85%</span></div>
-                    <strong>CSS3</strong>
+                        <div class="progress percent85">
+                            <span>85%</span>
+                        </div>
+                        <strong>CSS3</strong>
                     </li>
                     <li>
-                    <div class="progress percent70"><span>70%</span></div>
-                    <strong>JQuery</strong>
+                        <div class="progress percent70">
+                            <span>70%</span>
+                        </div>
+                        <strong>JQuery</strong>
                     </li>
                     <li>
-                    <div class="progress percent95"><span>95%</span></div>
-                    <strong>PHP</strong>
+                        <div class="progress percent95">
+                            <span>95%</span>
+                        </div>
+                        <strong>PHP</strong>
                     </li>
                     <li>
-                    <div class="progress percent75"><span>75%</span></div>
-                    <strong>Wordpress</strong>
+                        <div class="progress percent75">
+                            <span>75%</span>
+                        </div>
+                        <strong>Wordpress</strong>
                     </li>
                     <li>
-                    <div class="progress percent90"><span>90%</span></div>
-                    <strong>Angular JS</strong>
+                        <div class="progress percent90">
+                            <span>90%</span>
+                        </div>
+                        <strong>Angular JS</strong>
                     </li>
                 </ul>
 
             </div>
 
-        </div> <!-- end row -->
+        </div>
+        <!-- end row -->
 
         <div class="row half-bottom">
 
             <div class="col-six tab-full">
-                    
+
                 <h1>H1 Heading</h1>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
+                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas
+                    odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut
+                    qui accusamus praesentium.</p>
 
                 <h2>H2 Heading</h2>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
+                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas
+                    odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut
+                    qui accusamus praesentium.</p>
 
                 <h3>H3 Heading</h3>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
+                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas
+                    odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut
+                    qui accusamus praesentium.</p>
 
             </div>
 
             <div class="col-six tab-full">
-                    
+
                 <h4>H4 Heading</h4>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
+                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas
+                    odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut
+                    qui accusamus praesentium.</p>
 
                 <h5>H5 Heading</h5>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
+                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas
+                    odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut
+                    qui accusamus praesentium.</p>
 
                 <h6>H6 Heading</h6>
-                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. 
-                Voluptas odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut qui accusamus praesentium.</p>
+                <p>Doloremque dolor voluptas est sequi omnis. Pariatur ut aut. Sed enim tempora qui veniam qui cum vel. Voluptas
+                    odit at vitae minima. In assumenda ut. Voluptatem totam impedit accusantium reiciendis excepturi aut
+                    qui accusamus praesentium.</p>
 
             </div>
 
@@ -404,20 +498,45 @@
 
             <div class="col-twelve">
 
-                    <h3>Stats Tabs</h3>
+                <h3>Stats Tabs</h3>
 
                 <ul class="stats-tabs">
-                    <li><a href="#">1,234 <em>Sasuke</em></a></li>
-                    <li><a href="#">567 <em>Hinata</em></a></li>
-                    <li><a href="#">23,456 <em>Naruto</em></a></li>
-                    <li><a href="#">3,456 <em>Kiba</em></a></li>
-                    <li><a href="#">456 <em>Shikamaru</em></a></li>
-                    <li><a href="#">26 <em>Sakura</em></a></li>
-                    </ul>
+                    <li>
+                        <a href="#">1,234
+                            <em>Sasuke</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">567
+                            <em>Hinata</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">23,456
+                            <em>Naruto</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">3,456
+                            <em>Kiba</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">456
+                            <em>Shikamaru</em>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">26
+                            <em>Sakura</em>
+                        </a>
+                    </li>
+                </ul>
 
             </div>
 
-        </div> <!-- end row -->
+        </div>
+        <!-- end row -->
 
 
         <div class="row half-bottom">
@@ -425,10 +544,10 @@
             <div class="col-six tab-full">
 
                 <h3>Responsive Image</h3>
-                <p><img src="images/wheel-500.jpg" 
-                    srcset="images/wheel-1000.jpg 1000w, 
-                    images/wheel-500.jpg 500w" 
-                    sizes="(max-width: 1000px) 100vw, 1000px" alt=""></p>
+                <p>
+                    <img src="images/wheel-500.jpg" srcset="images/wheel-1000.jpg 1000w, 
+                    images/wheel-500.jpg 500w" sizes="(max-width: 1000px) 100vw, 1000px" alt="">
+                </p>
 
             </div>
 
@@ -437,12 +556,14 @@
                 <h3>Responsive video</h3>
 
                 <div class="video-container">
-                <iframe src="https://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+                    <iframe src="https://player.vimeo.com/video/14592941?title=0&amp;byline=0&amp;portrait=0&amp;color=F64B39" width="500" height="281"
+                        frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
                 </div>
 
             </div>
-            
-        </div> <!-- end row -->
+
+        </div>
+        <!-- end row -->
 
 
         <div class="row add-bottom">
@@ -450,20 +571,23 @@
             <div class="col-twelve">
 
                 <h3>Tables</h3>
-                <p>Be sure to use properly formed table markup with <code>&lt;thead&gt;</code> and <code>&lt;tbody&gt;</code> when building a <code>table</code>.</p>
+                <p>Be sure to use properly formed table markup with
+                    <code>&lt;thead&gt;</code> and
+                    <code>&lt;tbody&gt;</code> when building a
+                    <code>table</code>.</p>
 
                 <div class="table-responsive">
 
                     <table>
-                            <thead>
+                        <thead>
                             <tr>
                                 <th>Name</th>
                                 <th>Age</th>
                                 <th>Sex</th>
                                 <th>Location</th>
                             </tr>
-                            </thead>
-                            <tbody>
+                        </thead>
+                        <tbody>
                             <tr>
                                 <td>Naruto Uzumaki</td>
                                 <td>16</td>
@@ -476,15 +600,16 @@
                                 <td>Female</td>
                                 <td>Konoha</td>
                             </tr>
-                            </tbody>
+                        </tbody>
                     </table>
 
                 </div>
 
             </div>
-            
-        </div> <!-- end row -->
-    
+
+        </div>
+        <!-- end row -->
+
 
         <div class="row">
 
@@ -493,30 +618,30 @@
                 <h3>Form Styles</h3>
 
                 <form>
-                        <div>
-                            <label for="sampleInput">Your email</label>
-                            <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput">
+                    <div>
+                        <label for="sampleInput">Your email</label>
+                        <input class="full-width" type="email" placeholder="test@mailbox.com" id="sampleInput">
                     </div>
                     <div>
-                            <label for="sampleRecipientInput">Reason for contacting</label>
-                            <div class="cl-custom-select">
-                                <select class="full-width" id="sampleRecipientInput">
-                                    <option value="Option 1">Questions</option>
-                                    <option value="Option 2">Report</option>
-                                    <option value="Option 3">Others</option>
-                                </select>
-                            </div>
+                        <label for="sampleRecipientInput">Reason for contacting</label>
+                        <div class="cl-custom-select">
+                            <select class="full-width" id="sampleRecipientInput">
+                                <option value="Option 1">Questions</option>
+                                <option value="Option 2">Report</option>
+                                <option value="Option 3">Others</option>
+                            </select>
+                        </div>
                     </div>
-                    
-                        <label for="exampleMessage">Message</label>
-                        <textarea class="full-width" placeholder="Your message" id="exampleMessage"></textarea>
 
-                        <label class="add-bottom">
-                            <input type="checkbox">
-                            <span class="label-text">Send a copy to yourself</span>
-                        </label>
-                    
-                        <input class="btn--primary" type="submit" value="Submit">
+                    <label for="exampleMessage">Message</label>
+                    <textarea class="full-width" placeholder="Your message" id="exampleMessage"></textarea>
+
+                    <label class="add-bottom">
+                        <input type="checkbox">
+                        <span class="label-text">Send a copy to yourself</span>
+                    </label>
+
+                    <input class="btn--primary" type="submit" value="Submit">
 
                 </form>
 
@@ -527,36 +652,37 @@
                 <h3>Alert Boxes</h3>
 
                 <br>
-                
+
                 <div class="alert-box alert-box--error hideit">
                     <p>Error Message. Your Message Goes Here.</p>
                     <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                </div><!-- /error -->
-                        
+                </div>
+                <!-- /error -->
+
                 <div class="alert-box alert-box--success hideit">
                     <p>Success Message. Your Message Goes Here.</p>
                     <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                </div><!-- /success -->
-                        
+                </div>
+                <!-- /success -->
+
                 <div class="alert-box alert-box--info hideit">
                     <p>Info Message. Your Message Goes Here.</p>
                     <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                </div><!-- /info -->
-                        
+                </div>
+                <!-- /info -->
+
                 <div class="alert-box alert-box--notice hideit">
                     <p>Notice Message. Your Message Goes Here.</p>
                     <i class="fa fa-times alert-box__close" aria-hidden="true"></i>
-                </div><!-- /notice -->
-            
+                </div>
+                <!-- /notice -->
+
             </div>
 
-        </div> <!-- end row -->
+        </div>
+        <!-- end row -->
 
-    </section> <!-- end styles -->
-
-
-    <!-- contact
-    ================================================== -->
+    </section>
     <section id="contact" class="s-contact">
 
         <div class="overlay"></div>
@@ -570,52 +696,54 @@
         </div>
 
         <div class="row contact-content" data-aos="fade-up">
-            
+
             <div class="contact-primary">
 
                 <h3 class="h6">Send Us A Message</h3>
 
-                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                <form name="contactForm" method="POST" action="https://formspree.io/ieeeamrita.sb@gmail.com">
                     <fieldset>
-    
-                    <div class="form-field">
-                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
-                    </div>
-                    <div class="form-field">
-                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
-                    </div>
-                    <div class="form-field">
-                        <button class="full-width btn--primary">Submit</button>
-                        <div class="submit-loader">
-                            <div class="text-loader">Sending...</div>
-                            <div class="s-loader">
-                                <div class="bounce1"></div>
-                                <div class="bounce2"></div>
-                                <div class="bounce3"></div>
+
+                        <div class="form-field">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true"
+                                class="full-width" autocomplete="name">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true"
+                                class="full-width" autocomplete="email">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true"
+                                class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary">Submit</button>
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-    
+
                     </fieldset>
                 </form>
 
-                <!-- contact-warning -->
                 <div class="message-warning">
                     Something went wrong. Please try again.
-                </div> 
-            
-                <!-- contact-success -->
-                <div class="message-success">
-                    Your message was sent, thank you!<br>
                 </div>
 
-            </div> <!-- end contact-primary -->
+                <div class="message-success">
+                    Your message was sent, thank you!
+                    <br>
+                </div>
+
+            </div>
 
             <div class="contact-secondary">
                 <div class="contact-info">
@@ -625,57 +753,57 @@
                     <div class="cinfo">
                         <h5>Where to Find Us</h5>
                         <p>
-                            1600 Amphitheatre Parkway<br>
-                            Mountain View, CA<br>
-                            94043 US
+                            Amrita Vishwa Vidyapeetham University,
+                            <br> Kasavanahalli,
+                            <br> Carmelaram P.O., Bangalore
+                            <br> 560 035
+                            <br> Karnataka, India
                         </p>
                     </div>
 
                     <div class="cinfo">
                         <h5>Email Us At</h5>
                         <p>
-                            contact@glintsite.com<br>
-                            info@glintsite.com
+                            <a href="mailto:ieeeamrita.sb@gmail.com">ieeeamrita.sb@gmail.com</a>
                         </p>
                     </div>
 
                     <div class="cinfo">
                         <h5>Call Us At</h5>
                         <p>
-                            Phone: (+63) 555 1212<br>
-                            Mobile: (+63) 555 0100<br>
-                            Fax: (+63) 555 0101
+                            Mobile:
+                            <a href="tel:+918904996683">(+91) 890 499 6683</a>
                         </p>
                     </div>
 
                     <ul class="contact-social">
                         <li>
-                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a target="_blank" rel="noopener" href="https://www.facebook.com/ieeeamritasb/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a target="_blank" rel="noopener" href="https://www.instagram.com/ieee_amrita/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/ieee-student-branch-ase-b/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
                         </li>
                         <li>
-                            <a href="#"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a class="smoothscroll" href="#contact">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
                         </li>
-                        <li>
-                            <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
+    </section>
 
-        </div> <!-- end contact-content -->
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
     <footer>
 
         <div class="row footer-main">
@@ -683,14 +811,16 @@
             <div class="col-six tab-full left footer-desc">
 
                 <div class="footer-logo"></div>
-                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+                The world's largest technical professional organization dedicated to advancing technology for the benefit of humanity.
 
             </div>
 
             <div class="col-six tab-full right footer-subscribe">
 
                 <h4>Get Notified</h4>
-                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+                <p>
+                    Leave us your email to keep yourself updated.
+                </p>
 
                 <div class="subscribe-form">
                     <form id="mc-form" class="group" novalidate="true">
@@ -702,28 +832,30 @@
 
             </div>
 
-        </div> <!-- end footer-main -->
+        </div>
 
         <div class="row footer-bottom">
 
             <div class="col-twelve">
                 <div class="copyright">
-                    <span>© Copyright Glint 2017</span> 
-                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                    <span>&copy; Copyright IEEE Amrita 2018</span>
+                    <span>Made by
+                        <a target="_blank" rel="noopener" href="https://aravindvnair99.firebaseapp.com">Aravind V. Nair</a>
+                        and
+                        <a target="_blank" rel="noopener" href="https://abhishek-sai.firebaseapp.com/">Abhishek Sai</a>
+                        for IEEE
+                        <a target="_blank" rel="noopener" href="https://www.amrita.edu/campus/bengaluru">Amrita Bangalore</a>
+                    </span>
                 </div>
 
                 <div class="go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <i class="icon-arrow-up" aria-hidden="true"></i>
+                    </a>
                 </div>
             </div>
-
-        </div> <!-- end footer-bottom -->
-
-    </footer> <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
+        </div>
+    </footer>
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
         <div class="pswp__bg"></div>
@@ -737,9 +869,11 @@
 
             <div class="pswp__ui pswp__ui--hidden">
                 <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
                     <div class="pswp__preloader">
                         <div class="pswp__preloader__icn">
                             <div class="pswp__preloader__cut">
@@ -750,20 +884,15 @@
                 </div>
                 <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
                     <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
                 <div class="pswp__caption">
                     <div class="pswp__caption__center"></div>
                 </div>
             </div>
-
         </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
+    </div>
     <div id="preloader">
         <div id="loader">
             <div class="line-scale-pulse-out">
@@ -775,14 +904,30 @@
             </div>
         </div>
     </div>
-
-
-    <!-- Java Script
-    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script async src="js/manup.js"></script>
+    <script>
+        if (navigator.serviceWorker.controller) {
+            console.log('[PWA Builder] active service worker found, no need to register')
+        } else {
+            navigator.serviceWorker.register('pwabuilder-sw.js', {
+                scope: './'
+            }).then(function (reg) {
+                console.log('Service worker has been registered for scope:' + reg.scope);
+            });
+        }
+    </script>
+    <script type="application/ld+json">
+            {
+              "@context": "http://schema.org/",
+              "@type": "WebSite",
+              "name": "IEEE Amrita",
+              "alternateName": "IEEE Student Branch Amrita",
+              "url": "https://ieee-amrita.firebaseapp.com"
+            }
+        </script>
 </body>
 
 </html>
