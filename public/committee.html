@@ -129,16 +129,16 @@
                             <a   href="./index.html#clients" title="Resources">Resources</a>
                         </li>
                         <li>
-                            <a   href="./index.html#contact" title="Contact">Contact</a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="http://sites.ieee.org/sb-ase/" title="blog">Blog</a>
-                        </li>
-                        <li>
                             <a href="./join.html" title="how to join?">How to join IEEE?</a>
                         </li>
                         <li>
                             <a href="./benefits.html" title="benefits">Benefits</a>
+                        </li>
+                        <li>
+                            <a href="./feedback.html" title="Feedback">Feedback</a>
+                        </li>
+                        <li>
+                            <a class="smoothscroll" href="#contact" title="Contact">Contact</a>
                         </li>
                     </ul>
     
@@ -328,14 +328,130 @@
                         </div>
                     </div>
                 </div>
-                <!--end testimonials -->
             </div>
-            <!-- end col-full -->
         </div>
-        <!-- end client-testimonials -->
     </section>
-    <!-- footer
-    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Us</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+
+            <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" method="POST" action="https://formspree.io/ieeeamrita.sb@gmail.com">
+                    <fieldset>
+
+                        <div class="form-field">
+                            <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true"
+                                class="full-width" autocomplete="name">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true"
+                                class="full-width" autocomplete="email">
+                        </div>
+                        <div class="form-field">
+                            <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                        </div>
+                        <div class="form-field">
+                            <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true"
+                                class="full-width"></textarea>
+                        </div>
+                        <div class="form-field">
+                            <button class="full-width btn--primary">Submit</button>
+                            <div class="submit-loader">
+                                <div class="text-loader">Sending...</div>
+                                <div class="s-loader">
+                                    <div class="bounce1"></div>
+                                    <div class="bounce2"></div>
+                                    <div class="bounce3"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </fieldset>
+                </form>
+
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div>
+
+                <div class="message-success">
+                    Your message was sent, thank you!
+                    <br>
+                </div>
+
+            </div>
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                    <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            Amrita Vishwa Vidyapeetham University,
+                            <br> Kasavanahalli,
+                            <br> Carmelaram P.O., Bangalore
+                            <br> 560 035
+                            <br> Karnataka, India
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Email Us At</h5>
+                        <p>
+                            <a href="mailto:ieeeamrita.sb@gmail.com">ieeeamrita.sb@gmail.com</a>
+                        </p>
+                    </div>
+
+                    <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Mobile:
+                            <a href="tel:+918904996683">(+91) 890 499 6683</a>
+                        </p>
+                    </div>
+
+                    <ul class="contact-social">
+                        <li>
+                            <a target="_blank" rel="noopener" href="https://www.facebook.com/ieeeamritasb/">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="noopener" href="https://www.instagram.com/ieee_amrita/">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" rel="noopener" href="https://www.linkedin.com/company/ieee-student-branch-ase-b/">
+                                <i class="fa fa-linkedin" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="smoothscroll" href="#contact">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
     <footer>
 
         <div class="row footer-main">
@@ -365,7 +481,6 @@
             </div>
 
         </div>
-        <!-- end footer-main -->
 
         <div class="row footer-bottom">
 
@@ -373,30 +488,22 @@
                 <div class="copyright">
                     <span>&copy; Copyright IEEE Amrita 2018</span>
                     <span>Made by
-                        <a target="_blank" href="#">Aravind V. Nair</a>
+                        <a target="_blank" rel="noopener" href="https://aravindvnair99.firebaseapp.com">Aravind V. Nair</a>
                         and
-                        <a target="_blank" href="https://abhishek-sai.firebaseapp.com/">Abhishek Sai</a>
+                        <a target="_blank" rel="noopener" href="https://abhishek-sai.firebaseapp.com/">Abhishek Sai</a>
                         for IEEE
-                        <a target="_blank" href="https://www.amrita.edu/campus/bengaluru">Amrita Bangalore</a>
+                        <a target="_blank" rel="noopener" href="https://www.amrita.edu/campus/bengaluru">Amrita Bangalore</a>
                     </span>
                 </div>
 
                 <div class="go-top">
-                    <a target="_blank" class="smoothscroll" title="Back to Top" href="#top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
                         <i class="icon-arrow-up" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
-
         </div>
-        <!-- end footer-bottom -->
-
     </footer>
-    <!-- end footer -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
     <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
 
         <div class="pswp__bg"></div>
@@ -432,15 +539,8 @@
                     <div class="pswp__caption__center"></div>
                 </div>
             </div>
-
         </div>
-
     </div>
-    <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
     <div id="preloader">
         <div id="loader">
             <div class="line-scale-pulse-out">
@@ -452,23 +552,31 @@
             </div>
         </div>
     </div>
-
-
-    <!-- Java Script
-    ================================================== -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/manup.js"></script>
+    <script async src="js/manup.js"></script>
+    <script>
+        if (navigator.serviceWorker.controller) {
+            console.log('[PWA Builder] active service worker found, no need to register')
+        } else {
+            navigator.serviceWorker.register('pwabuilder-sw.js', {
+                scope: './'
+            }).then(function(reg) {
+                console.log('Service worker has been registered for scope:'+ reg.scope);
+            });
+        }
+    </script>
     <script type="application/ld+json">
         {
           "@context": "http://schema.org/",
           "@type": "WebSite",
-          "name": "IEEE Amrita Committee",
-          "alternateName": "IEEE Student Branch Amrita Core Members",
+          "name": "IEEE Amrita",
+          "alternateName": "IEEE Student Branch Amrita",
           "url": "https://ieee-amrita.firebaseapp.com"
         }
     </script>
 </body>
 
 </html>
+    
