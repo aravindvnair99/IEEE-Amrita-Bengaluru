@@ -4,31 +4,42 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 
 <url>
   <loc>https://ieee-amrita.firebaseapp.com/</loc>
-  <lastmod>2018-05-11T16:58:13+00:00</lastmod>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://ieee-amrita.firebaseapp.com/index.html</loc>
-  <lastmod>2018-05-11T16:58:13+00:00</lastmod>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ieee-amrita.firebaseapp.com/skillthon.html</loc>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ieee-amrita.firebaseapp.com/committee.html</loc>
-  <lastmod>2018-05-11T16:58:13+00:00</lastmod>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ieee-amrita.firebaseapp.com/join.html</loc>
-  <lastmod>2018-05-11T16:58:13+00:00</lastmod>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://ieee-amrita.firebaseapp.com/benefits.html</loc>
-  <lastmod>2018-05-11T16:58:13+00:00</lastmod>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ieee-amrita.firebaseapp.com/feedback.html</loc>
+  <lastmod>2018-07-17T13:26:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
