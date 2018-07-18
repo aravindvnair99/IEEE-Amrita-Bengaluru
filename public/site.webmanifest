@@ -15,5 +15,9 @@
     ],
     "theme_color": "#00abff",
     "background_color": "#00abff",
-    "display": "standalone"
+    "start_url": "https://ieee-amrita.firebaseapp.com/?utm_source=homescreen",
+    "display": "standalone",
+    "lang": "English",
+    "orientation": "any",
+    "description": "Official IEEE Amrita PWA and Website made by Aravind V. Nair and Abhishek Sai"
 }
