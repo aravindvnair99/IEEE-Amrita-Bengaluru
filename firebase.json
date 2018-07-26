@@ -17,6 +17,11 @@
         "destination": "/skillthon.html",
         "type": 301
       }
+      {
+        "source": "/Feedback",
+        "destination": "/feedback.html",
+        "type": 301
+      }
     ],
     "headers": [
       {
