@@ -16,7 +16,7 @@
         "source": "/SkillThon18",
         "destination": "/skillthon.html",
         "type": 301
-      }
+      },
       {
         "source": "/Feedback",
         "destination": "/feedback.html",
