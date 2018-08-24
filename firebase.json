@@ -18,6 +18,11 @@
         "type": 301
       },
       {
+        "source": "/IEEEAmritaSBWeatherForecastChannel",
+        "destination": "/weather.html",
+        "type": 301
+      },
+      {
         "source": "/Apply",
         "destination": "/apply.html",
         "type": 301
