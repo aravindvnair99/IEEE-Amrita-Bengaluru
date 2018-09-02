@@ -13,11 +13,6 @@
         "type": 301
       },
       {
-        "source": "/Kalpana2018",
-        "destination": "/kalpana.html",
-        "type": 301
-      },
-      {
         "source": "/Apply",
         "destination": "/apply.html",
         "type": 301
