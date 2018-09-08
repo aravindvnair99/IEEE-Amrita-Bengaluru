@@ -1,65 +1,70 @@
 {
-  "hosting": {
-    "public": "public",
-    "ignore": [
-      "firebase.json",
-      "**/.*",
-      "**/node_modules/**"
-    ],
-    "redirects": [
-      {
-        "source": "/images/android-chrome-192x192.png",
-        "destination": "/android-chrome-192x192.png",
-        "type": 301
-      },
-      {
-        "source": "/Apply",
-        "destination": "/apply.html",
-        "type": 301
-      },
-      {
-        "source": "/Feedback",
-        "destination": "/feedback.html",
-        "type": 301
-      }
-    ],
-    "headers": [
-      {
-        "source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|font.css)",
-        "headers": [
-          {
-            "key": "Access-Control-Allow-Origin",
-            "value": "*"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(js|css|json)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=604800"
-          }
-        ]
-      },
-      {
-        "source": "**/*.@(jpg|jpeg|gif|png)",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=604800"
-          }
-        ]
-      },
-      {
-        "source": "404.html",
-        "headers": [
-          {
-            "key": "Cache-Control",
-            "value": "max-age=300"
-          }
-        ]
-      }
-    ]
-  }
+	"hosting": {
+		"public": "public",
+		"ignore": [
+			"firebase.json",
+			"**/.*",
+			"**/node_modules/**"
+		],
+		"redirects": [
+			{
+				"source": "/images/android-chrome-192x192.png",
+				"destination": "/android-chrome-192x192.png",
+				"type": 301
+			},
+			{
+				"source": "/Apply",
+				"destination": "/apply.html",
+				"type": 301
+			},
+			{
+				"source": "/Feedback",
+				"destination": "/feedback.html",
+				"type": 301
+			},
+			{
+				"source": "/Quiz",
+				"destination": "/quiz.html",
+				"type": 301
+			}
+		],
+		"headers": [
+			{
+				"source": "**/*.@(eot|otf|ttf|ttc|woff|woff2|font.css)",
+				"headers": [
+					{
+						"key": "Access-Control-Allow-Origin",
+						"value": "*"
+					}
+				]
+			},
+			{
+				"source": "**/*.@(js|css|json)",
+				"headers": [
+					{
+						"key": "Cache-Control",
+						"value": "max-age=604800"
+					}
+				]
+			},
+			{
+				"source": "**/*.@(jpg|jpeg|gif|png)",
+				"headers": [
+					{
+						"key": "Cache-Control",
+						"value": "max-age=604800"
+					}
+				]
+			},
+			{
+				"source": "404.html",
+				"headers": [
+					{
+						"key": "Cache-Control",
+						"value": "max-age=300"
+					}
+				]
+			}
+		]
+	}
 }
