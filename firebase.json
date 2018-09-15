@@ -18,6 +18,11 @@
 				"type": 301
 			},
 			{
+				"source": "/ExecutiveApplicationFirstYear",
+				"destination": "/ExecutiveApplicationFirstYear.html",
+				"type": 301
+			},
+			{
 				"source": "/Feedback",
 				"destination": "/feedback.html",
 				"type": 301
