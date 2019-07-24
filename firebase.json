@@ -8,6 +8,11 @@
 		],
 		"redirects": [
 			{
+				"source": "/",
+				"destination": "http://sites.ieee.org/sb-ase/",
+				"type": 302
+			},
+			{
 				"source": "/images/android-chrome-192x192.png",
 				"destination": "/android-chrome-192x192.png",
 				"type": 301
