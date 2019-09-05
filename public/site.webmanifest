@@ -1,23 +1,23 @@
 {
-    "name": "IEEE Amrita",
-    "short_name": "IEEE Amrita",
-    "icons": [
-        {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ],
-    "theme_color": "#00abff",
-    "background_color": "#00abff",
-    "start_url": "https://ieee-amrita.firebaseapp.com/?utm_source=homescreen",
-    "display": "standalone",
-    "lang": "English",
-    "orientation": "any",
-    "description": "Official IEEE Amrita PWA and Website made by Aravind V. Nair and Abhishek Sai"
+	"name": "IEEE Amrita",
+	"short_name": "IEEE Amrita",
+	"icons": [
+		{
+			"src": "/android-chrome-192x192.png",
+			"sizes": "192x192",
+			"type": "image/png"
+		},
+		{
+			"src": "/android-chrome-512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"theme_color": "#00abff",
+	"background_color": "#00abff",
+	"start_url": "https://ieee-amrita.firebaseapp.com/?utm_source=homescreen",
+	"display": "standalone",
+	"lang": "English",
+	"orientation": "any",
+	"description": "Official IEEE Amrita PWA and Website made by Aravind V. Nair and Abhishek Sai"
 }
