@@ -1,17 +1,8 @@
 {
 	"hosting": {
 		"public": "public",
-		"ignore": [
-			"firebase.json",
-			"**/.*",
-			"**/node_modules/**"
-		],
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
 		"redirects": [
-			{
-				"source": "/",
-				"destination": "/redirect.html",
-				"type": 302
-			},
 			{
 				"source": "/images/android-chrome-192x192.png",
 				"destination": "/android-chrome-192x192.png",
