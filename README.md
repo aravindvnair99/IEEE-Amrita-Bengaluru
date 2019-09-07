@@ -1,6 +1,6 @@
 # IEEE Amrita Bengaluru
 
-Official source code of IEEE Amrita Bangalore website along with CSI, ACM and ACM - W chapters of Amrita Bangalore.
+Official source code of IEEE Amrita Bangalore website along with ComSoc, PELS, RAS, WIE, PES-IAS, I2 chapters of Amrita Bangalore.
 
 # :octocat: How to contribute?
 
