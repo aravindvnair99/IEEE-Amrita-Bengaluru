@@ -16,7 +16,6 @@
 				dataLayer.push(arguments);
 			}
 			gtag('js', new Date());
-
 			gtag('config', 'UA-119055177-1');
 		</script>
 		<meta charset="utf-8" />
@@ -120,7 +119,7 @@
 	<body id="top">
 		<header class="s-header">
 			<div class="header-logo">
-				<a class="site-logo" href="index.html">
+				<a class="site-logo" href="/">
 					<img src="images/logo.png" id="site-logo" alt="Homepage" />
 				</a>
 			</div>
@@ -135,10 +134,14 @@
 
 					<ul class="header-nav__list">
 						<li class="current">
-							<a href="index.html" title="Home">Home</a>
+							<a class="smoothscroll" href="/#home" title="Home"
+								>Home</a
+							>
 						</li>
 						<li>
-							<a href="./index.html#about" title="About">About</a>
+							<a class="smoothscroll" href="/#about" title="About"
+								>About</a
+							>
 						</li>
 						<li>
 							<div class="dropdown">
@@ -146,17 +149,26 @@
 									>Officers</a
 								>
 								<div class="dropdown-content">
-									<a href="./index.html#officers" title="Core"
+									<a
+										class="smoothscroll"
+										href="/#officers"
+										title="Core"
 										>Core</a
 									>
-									<a href="./committee.html" title="Committee"
+									<a href="/Mentors" title="Mentors"
+										>Mentors</a
+									>
+									<a href="/Committee" title="Committee"
 										>Committee</a
 									>
 								</div>
 							</div>
 						</li>
 						<li>
-							<a href="./index.html#services" title="Branches"
+							<a
+								class="smoothscroll"
+								href="/#services"
+								title="Branches"
 								>Branches</a
 							>
 						</li>
@@ -167,21 +179,22 @@
 								>
 								<div class="dropdown-content">
 									<a
-										href="./index.html#works"
+										class="smoothscroll"
+										href="/#works"
 										title="Showcase"
 										>Showcase</a
 									>
 									<a
 										target="_blank"
 										rel="noopener"
-										href="http://sites.ieee.org/sb-ase/events/up-coming-events/"
+										href="https://site.ieee.org/sb-ase/events/up-coming-events/"
 										title="Upcoming"
 										>Upcoming</a
 									>
 									<a
 										target="_blank"
 										rel="noopener"
-										href="http://sites.ieee.org/sb-ase/events/recent-events-2/"
+										href="https://site.ieee.org/sb-ase/events/recent-events-2/"
 										title="Past"
 										>Past</a
 									>
@@ -192,38 +205,55 @@
 							<a
 								target="_blank"
 								rel="noopener"
-								href="http://sites.ieee.org/sb-ase/photo/"
+								href="https://site.ieee.org/sb-ase/photo/"
 								title="Gallery"
 								>Gallery</a
 							>
 						</li>
 						<li>
-							<a href="./index.html#clients" title="Resources"
+							<a
+								class="smoothscroll"
+								href="/#clients"
+								title="Resources"
 								>Resources</a
-							>
-						</li>
-						<li>
-							<a href="./index.html#contact" title="Contact"
-								>Contact</a
 							>
 						</li>
 						<li>
 							<a
 								target="_blank"
 								rel="noopener"
-								href="http://sites.ieee.org/sb-ase/"
+								href="https://site.ieee.org/sb-ase/"
 								title="blog"
 								>Blog</a
 							>
 						</li>
 						<li>
-							<a href="./join.html" title="how to join?"
-								>How to join IEEE?</a
-							>
+							<div class="dropdown">
+								<a class="smoothscroll" title="Join">Join</a>
+								<div class="dropdown-content">
+									<a href="/Join" title="Join IEEE"
+										>Join IEEE</a
+									>
+									<a
+										href="/Apply"
+										title="Apply to IEEE Amrita"
+										>Join IEEE Amrita</a
+									>
+								</div>
+							</div>
 						</li>
 						<li>
-							<a href="./benefits.html" title="benefits"
-								>Benefits</a
+							<a href="/Benefits" title="benefits">Benefits</a>
+						</li>
+						<li>
+							<a href="/Feedback" title="feedback">Feedback</a>
+						</li>
+						<li>
+							<a
+								class="smoothscroll"
+								href="#contact"
+								title="Contact"
+								>Contact</a
 							>
 						</li>
 					</ul>
@@ -234,21 +264,21 @@
 						<a
 							target="_blank"
 							rel="noopener"
-							href="http://ieeebangalore.org/"
+							href="https://ieeebangalore.org/"
 							>IEEE Bangalore Section</a
 						>
 						<br />
 						<a
 							target="_blank"
 							rel="noopener"
-							href="http://www.ieeer10.org/"
+							href="https://ieeer10.org/"
 							>IEEE R10 Asia</a
 						>
 						<br />
 						<a
 							target="_blank"
 							rel="noopener"
-							href="https://www.ieee.org/index.html"
+							href="https://ieee.org/index.html"
 							>IEEE Global</a
 						>
 					</p>
@@ -258,7 +288,7 @@
 							<a
 								target="_blank"
 								rel="noopener"
-								href="https://www.facebook.com/ieeeamritasb/"
+								href="https://facebook.com/ieeeamritasb/"
 							>
 								<i class="fa fa-facebook"></i>
 							</a>
@@ -267,7 +297,7 @@
 							<a
 								target="_blank"
 								rel="noopener"
-								href="https://www.instagram.com/ieee_amrita/"
+								href="https://instagram.com/ieee_amrita/"
 							>
 								<i class="fa fa-instagram"></i>
 							</a>
@@ -276,7 +306,7 @@
 							<a
 								target="_blank"
 								rel="noopener"
-								href="https://www.linkedin.com/company/ieee-student-branch-ase-b/"
+								href="https://linkedin.com/company/ieee-student-branch-ase-b/"
 							>
 								<i class="fa fa-linkedin"></i>
 							</a>
@@ -293,21 +323,21 @@
 						<a
 							target="_blank"
 							rel="noopener"
-							href="https://aravindvnair99.firebaseapp.com"
+							href="https://linkedin.com/in/aravindvnair99/"
 							>Aravind V. Nair</a
 						>
 						and
 						<a
 							target="_blank"
 							rel="noopener"
-							href="https://abhishek-sai.firebaseapp.com/"
+							href="https://linkedin.com/in/abhishek-kvs/"
 							>Abhishek Sai</a
 						>
 						for IEEE
 						<a
 							target="_blank"
 							rel="noopener"
-							href="https://www.amrita.edu/campus/bengaluru"
+							href="https://amrita.edu/campus/bengaluru"
 							>Amrita Bangalore</a
 						>
 					</p>
@@ -319,6 +349,7 @@
 				<span class="header-menu-icon"></span>
 			</a>
 		</header>
+
 		<section id="about" class="s-about">
 			<div class="row section-header has-bottom-sep" data-aos="fade-up">
 				<div class="col-full">
