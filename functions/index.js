@@ -11,6 +11,9 @@ app.get('/', (req, res) => {
 app.get('/Apply', (req, res) => {
 	res.render('apply');
 });
+app.get('/Benefits', (req, res) => {
+	res.render('benefits');
+});
 app.get('/Committee', (req, res) => {
 	res.render('committee');
 });
