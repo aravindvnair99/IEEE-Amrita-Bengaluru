@@ -14,8 +14,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 # :family: Team
 
-* **Aravind V. Nair** - *Front-end, Testing, Back-end and Security* - [AravindVNair99](https://github.com/aravindvnair99)
-* **Abhishek Sai** - *Front-end, Testing and Back-end* - [Abhishek-Sai](https://github.com/Abhishek-Sai)
+-   **Aravind V. Nair** - _Front-end, Testing, Back-end and Security_ - [AravindVNair99](https://github.com/aravindvnair99)
+-   **Abhishek Sai** - _Front-end, Testing and Back-end_ - [Abhishek-Sai](https://github.com/Abhishek-Sai)
 
 See the full list of [contributors](https://github.com/aravindvnair99/IEEE-Amrita-Bengaluru/graphs/contributors) who participated in this project and statistics.
 
@@ -35,11 +35,11 @@ Check the [changelog here](https://github.com/aravindvnair99/IEEE-Amrita-Bengalu
 
 Report [here](https://github.com/aravindvnair99/IEEE-Amrita-Bengaluru/issues/new/choose) in detail answering these questions:
 
-* What steps did you take to make the bug appear?
-* How can the bug be fixed? (In case you know)
-* Which OS and which all packages / softwares / dependencies are you using?
-* Have you tried any troubleshooting steps such as a reboot for example?
-* Have you followed the prescribed prerequisites?
+-   What steps did you take to make the bug appear?
+-   How can the bug be fixed? (In case you know)
+-   Which OS and which all packages / softwares / dependencies are you using?
+-   Have you tried any troubleshooting steps such as a reboot for example?
+-   Have you followed the prescribed prerequisites?
 
 # :envelope: How do I contact the team?
 
