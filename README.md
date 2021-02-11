@@ -1,4 +1,4 @@
-# IEEE Amrita Bengaluru
+# IEEE Amrita Bengaluru ![](https://komarev.com/ghpvc/?username=AravindVNair99&label=Views)
 
 Official source code of IEEE Amrita Bangalore website along with ComSoc, PELS, RAS, WIE, PES-IAS, I2 chapters of Amrita Bangalore.
 
