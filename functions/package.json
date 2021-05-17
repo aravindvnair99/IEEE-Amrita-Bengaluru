@@ -19,8 +19,8 @@
 	},
 	"devDependencies": {
 		"eslint": "^7.26.0",
-		"eslint-plugin-promise": "^4.3.1",
-		"firebase-functions-test": "^0.2.1"
+		"firebase-functions-test": "^0.2.3",
+		"eslint-plugin-promise": "^4.3.1"
 	},
 	"engines": {
 		"node": "10"
